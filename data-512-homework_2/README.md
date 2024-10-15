@@ -69,4 +69,11 @@ Below are raw datasets found in this repo that can be directly downloaded.
 
 Some special considerations about the data include: No politician from a North American country in the `politicians_by_country_AUG.2024.csv` dataset, countries labeled with a population of 0.0, and politicians that are part of more than one country. This and more should be in consideration when leveraging any of the data found in this repo. Special attention must be made properly clean and responsibly use the data in this repo.
 
+## Notebook Descriptions
+
+All notebooks for this repo can be found in the `datasets` directory.
+
+`data-creation.ipynb` obtains the `revision_id` for each of the Wikipedia articles/politicans, conducts ORES on each article, then merges the results with population data to produce the secondary data product `wp_politicians_by_country.csv`.
+
+`analysis.ipynb` uses `wp_politicians_by_country.csv` to conduct the six analyitcs asked by the HW2 instructions.
 
