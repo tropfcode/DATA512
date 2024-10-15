@@ -77,3 +77,30 @@ All notebooks for this repo can be found in the `datasets` directory.
 
 `analysis.ipynb` uses `wp_politicians_by_country.csv` to conduct the six analyitcs asked by the HW2 instructions.
 
+## Research Implications
+
+### Assignment reflections
+
+There are two primary things that come to mind with this assignment -- how labor intensive careful data processing can be and how much assumptions can alter results.
+
+Regarding careful data processing, it is understandable why many people decline to thoroughly document and processing their data. The time and attention needed to carefully follow every User Agreement, cite data sources, careful document data schemas (and their meaning), among many other things is immensly time consuming and tedious. Unquestionably though, it is important to go through the necessary work in the process of data provenance and governance. There are many implications associated with how data is described and documented -- from analysis decisions to conclusions made from results.
+
+Assumptions are made anytime analysis is conducted, especially using data from online sources. When conducting analysis for this project, it was quite interesting to see how results changed based upon assumptions made. For example, the countries with the worst article quality change if we do not take into account countries under a certain population threshold. Another example would be agreeing to which region a country may belong. Certainly there is active dispute if certain countries are labeled as belonging to certain regions. If the designations were to change among a few countries, then results at the region level could drastically change. Finally, it should never be assumed that any data one is working with has been properly cleaned. From repeat Wikipedia articles being attributed to multiple countries to countries have a population of zero, it would be a bad assumption to make that the data has not faults to consider.
+
+### Three Questions
+
+Below will be answers to three questions from the HW2 instructions.
+
+1. Q: What (potential) sources of bias did you discover in the course of your data processing and analysis?
+
+   A: One form that stood out was the lack of politicans from North America. Although North America was a region in one of the datasets, a lack of politicians from North America removed that region as part of the analysis. One may end up with quite different conclusions if North America was included.
+
+2. Q: What biases did you expect to find in the data (before you started working with it), and why?
+
+   A: There was an expectation to see reflections of personal bias as an American in the data -- particularly regarding article quality in Western Countries. Analysis showed that the regions with the highest article quality were from Western (European) countries. This bias was expected ahead of time due to the bias of journalistic intergrity and free speach that exists in Western countries. Whether that is true or not can certainly be debated, however the results align with the bias going into the analysis.
+
+3. Q: What might your results suggest about the internet and global society in general?
+
+   A: There are some potentially worrisome conclusions that can be leveraged from the results of the analysis conducted in this homework. One interpretation could be that Western countries value free speach and journalistic integrity in comparison to other regions. Personally, that is a stretch from the type of analysis that was conducted, but it is interesting to ponder regarding the responsibility of those that do such analysis and making sure that interpretation is handled with care.
+   Ultimately, these results are a microcosm of the world and should be looked at as a proxy for perhaps general article generation across the globe. It is clear that Western countries enjoy Wikipedia.
+
