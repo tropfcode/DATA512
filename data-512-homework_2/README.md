@@ -21,9 +21,11 @@ Python version 3.8 or greater is required.
 
 The following instructions create a virtual environment (isolated region for Python packages), activates the environment for use, and installs required python packages:
 
->> virtualenv -p python3 HW2
->> source HW2/bin/activate
->> pip install -r requirements.txt
+> virtualenv -p python3 HW2
+
+> source HW2/bin/activate
+
+> pip install -r requirements.txt
 
 ### Credentials as Environment Variables
 
